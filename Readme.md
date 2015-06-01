@@ -4,14 +4,6 @@ Embedded JavaScript templates.
 
 [![Build Status](https://travis-ci.org/visionmedia/ejs.png)](https://travis-ci.org/visionmedia/ejs)
 
-- - -
-NOTE: Version 2 of EJS makes some breaking changes with this version (notably,
-removal of the filters feature).  Work on v2 is happening here:
-https://github.com/mde/ejs
-
-File issues for EJS v2 here: https://github.com/mde/ejs/issues
-- - -
-
 ## Installation
 
     $ npm install ejs
@@ -21,8 +13,8 @@ File issues for EJS v2 here: https://github.com/mde/ejs/issues
   * Complies with the [Express](http://expressjs.com) view system
   * Static caching of intermediate JavaScript
   * Unbuffered code for conditionals etc `<% code %>`
-  * Escapes html by default with `<%= code %>`
-  * Unescaped buffering with `<%- code %>`
+  * Escapes html by default with `<%- code %>`
+  * Unescaped buffering with `<%= code %>`
   * Supports tag customization
   * Filter support for designer-friendly templates
   * Includes
